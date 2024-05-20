@@ -6,7 +6,7 @@ let input = Number(prompt('Inserisci un numero, se è uguale a quello generato d
 console.log('il numero che hai generato è:', input)
 
 
-let numeroGenerato =Math.floor(Math.random() * 10);
+let numeroGenerato =Math.floor(Math.random() * 10 + 1);
 
 console.log('Il computer ha generato:' , numeroGenerato)
 
